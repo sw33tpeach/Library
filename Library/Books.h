@@ -4,7 +4,7 @@
 #include <iomanip>
 #include <string>
 #include <vector>
-using namespace std; 
+using namespace std;
 
 class Books : public Publication
 {
@@ -35,6 +35,17 @@ public:
 	string getAuthor()
 	{
 		return author;
+	}
+
+	int GetPages()
+	{
+		return pages;
+	}
+
+	void SetPages(int p)
+	{
+
+			pages = p;
 	}
 };
 #endif
